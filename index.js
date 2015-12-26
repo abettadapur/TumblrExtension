@@ -17,5 +17,5 @@ var pageMod = require("sdk/page-mod");
 // The script replaces the page contents with a message
 pageMod.PageMod({
   include: "*.tumblr.com",
-  contentScript: [ self.data.url('jquery-2.1.4.js'), self.data.url('tumblrExt.js')]
+  contentScriptFile: [ self.data.url('jquery-2.1.4.js'), self.data.url('tumblrExt.js')]
 });
