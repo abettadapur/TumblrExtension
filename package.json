@@ -1,0 +1,16 @@
+{
+  "title": "reblogFromSource",
+  "name": "reblogfromsource",
+  "version": "0.0.1",
+  "description": "A reblog from source button",
+  "main": "index.js",
+  "author": "Alex Bettadapur/Sara Cagle",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
