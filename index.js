@@ -17,6 +17,5 @@ var pageMod = require("sdk/page-mod");
 // The script replaces the page contents with a message
 pageMod.PageMod({
   include: "*.tumblr.com",
-  contentScript: 'document.body.innerHTML = ' +
-                 ' "<h1>Page matches ruleset</h1>";'
+  contentScript: [ self.data.url('jquery-2.1.4.js'), self.data.url('tumblrExt.js')]
 });

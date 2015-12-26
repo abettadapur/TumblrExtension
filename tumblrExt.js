@@ -1,0 +1,1 @@
+document.body.innerHTML = "<h1>you rock motherfucker</h1>";
