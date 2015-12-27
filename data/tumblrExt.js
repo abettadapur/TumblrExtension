@@ -8,11 +8,7 @@ $.each(posts, function(index, post){
 	var reblogLink ="/reblog/"+rootId+"/"+reblogKey;		
 
 	if(rootId != postId) { //if you are NOT the OP, create the new button
-		console.log("in the button maker");
 		var buttons_div = $('.post_controls_inner', post).get(0); //grabs the buttons
-		buttons_div.innerHTML = buttons_div.innerHTML + '<a  target="_blank" title="Reblog from Source" href="'+reblogLink+'" >link!</a>'; //element text
-		console.log("made a button!");
+		buttons_div.innerHTML = buttons_div.innerHTML + '<a class="post_control post-control-icon reblog" target="_blank" title="Reblog from Source" href="'+reblogLink+'" data-subview="reblog"></a>'; //element text
 	}
 });
-
-//class="post_control post-control-icon reblog"
