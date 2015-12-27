@@ -1,6 +1,9 @@
 var posts = $(".post_container").not(".new_post_buttons_container"); //gets all posts on the page$
 $.each(posts, function(index, post){
 	var postChild = $(".post_full", post).get(0);
+	if(postChild == undefined ){
+		return;
+	}
 	var postJson = JSON.parse(postChild.attributes["data-json"].value);
 	var rootId = postJson['root_id'];
 	var postId = postJson['id'];
@@ -9,7 +12,7 @@ $.each(posts, function(index, post){
 
 	if(rootId != postId) { //if you are NOT the OP, create the new button
 		var buttons_div = $('.post_controls_inner', post).get(0); //grabs the button location
-		buttons_div.innerHTML = buttons_div.innerHTML + '<a class="post_control post-control-icon" target="_blank" title="Reblog from Source" href="'+reblogLink+'" data-subview="reblog">Click me!</a>'; 
+		buttons_div.innerHTML = buttons_div.innerHTML + '<a class="post_control post-control-icon reblog-from-source" target="_blank" title="Reblog from Source" href="'+reblogLink+'" data-subview="reblog"></a>'; 
 	}
 });
 

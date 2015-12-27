@@ -3,5 +3,20 @@
 */
 
 body{
-	border: 5px solid green;
+}
+
+.reblog{
+}
+
+.reblog-from-source{
+	background-image: url('http://www.serebii.net/itemdex/sprites/pokeball.png');
+	width: 20px;
+	height: 20px;
+}
+
+/*
+* If you want a text link, you need to change this to some font size other than 0.
+*/
+.post_controls .post_controls_inner {
+	/*font-size: 1em;*/
 }
