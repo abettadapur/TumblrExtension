@@ -1,6 +1,6 @@
 ## Tumblr Firefox Add-on
 # Reblog from Source
-Can be used on the Dashboard, Likes folder, and Queue, this add-on creates a “Reblog from Source” button that acts like a normal reblog, except it will reblog the post from the original post source, with the original comments, and nothing in between.
+Can be used on the Dashboard, Likes folder, and Queue. This add-on creates a “Reblog from Source” button that acts like a normal reblog, except it will reblog the post from the original post source, with the original comments, and nothing in between. This does not work on an individual user’s tumblelog.
 
 ###Good for
 
@@ -13,10 +13,10 @@ Can be used on the Dashboard, Likes folder, and Queue, this add-on creates a “
 
 ###Current bugs
 
-* Only displays on first set of posts loaded into the Dashboard/Queue/Like folder. Does not work for infinite-scroll pagination
+* Only displays on first set of posts loaded into the Dashboard/Queue/Like folder. Does not work for infinite-scroll pagination.
 
 ###Future goals
 
-* To open the ‘reblog from source’ panel on the Dashboard without losing your current place on the Dashboard. (Currently opens in another page and restarts the Dashboard, much like Tumblr’s reblog feature circa-2012)
+* To open the ‘reblog from source’ panel on the Dashboard without losing your current place on the Dashboard. (Currently opens in another page and restarts the Dashboard, much like Tumblr’s reblog feature circa-2012.)
 
-Developed by [Alex Bettadapur](http://http://alex.bettadapur.com/ and Sara Cagle) and [Sara Cagle](http://saracagle.com) ([Dodri0](http://dodri0.tumblr.com) at [Tumblr.com](http://tumblr.com))
+Developed by [Alex Bettadapur](http://http://alex.bettadapur.com/) and [Sara Cagle](http://saracagle.com) ([Dodri0](http://dodri0.tumblr.com) at [Tumblr.com](http://tumblr.com))
