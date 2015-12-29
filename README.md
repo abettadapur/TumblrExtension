@@ -19,4 +19,4 @@ Can be used on the Dashboard, Likes folder, and Queue. This add-on creates a “
 
 * To open the ‘reblog from source’ panel on the Dashboard without losing your current place on the Dashboard. (Currently opens in another page and restarts the Dashboard, much like Tumblr’s reblog feature circa-2012.)
 
-Developed by [Alex Bettadapur](http://http://alex.bettadapur.com/) and [Sara Cagle](http://saracagle.com) ([Dodri0](http://dodri0.tumblr.com) at [Tumblr.com](http://tumblr.com))
+Developed by [Alex Bettadapur](http://alex.bettadapur.com/) and [Sara Cagle](http://saracagle.com) ([Dodri0](http://dodri0.tumblr.com) at [Tumblr.com](http://tumblr.com))
