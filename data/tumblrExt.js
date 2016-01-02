@@ -23,6 +23,25 @@ makeButtons = function(){
 
 window.onload = makeButtons();
 
+
+/*var scrollPosition = 0;
+var currScrollPosition = $(window).scrollTop();*/
+$(window).scroll(function(){
+	makeButtons();
+	console.log("Scrolled");
+	/*if(currScrollPosition < scrollPosition){
+		//scrolling down
+		alert("going down!");
+	}
+	else if(currScrollPosition > scrollPosition){
+		alert("going up!");
+	}
+	else{
+		//haven't moved, shouldn't hit this?
+	}
+	scrollPosition = currScrollPosition*/
+});
+
 /*
 * Attempted use of ".on" function, the modern version of the ".bind" function. 
 * But I think I'm binding to the wrong event--I'm not sure what to call
