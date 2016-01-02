@@ -26,9 +26,14 @@ window.onload = makeButtons();
 
 /*var scrollPosition = 0;
 var currScrollPosition = $(window).scrollTop();*/
+
+/*
+* Binds to the scroll event. On scroll (in any direction), calls the makeButtons() function.
+*/
 $(window).scroll(function(){
 	makeButtons();
-	console.log("Scrolled");
+	//this stuff doesn't work 100% of the time
+	//if we could make it so it's only called on scroll down, that could help remove some of the extraneous calls
 	/*if(currScrollPosition < scrollPosition){
 		//scrolling down
 		alert("going down!");
@@ -41,44 +46,6 @@ $(window).scroll(function(){
 	}
 	scrollPosition = currScrollPosition*/
 });
-
-/*
-* Attempted use of ".on" function, the modern version of the ".bind" function. 
-* But I think I'm binding to the wrong event--I'm not sure what to call
-* the pagination event that we are trying to bind to.
-*/
-/*$(".posts").on("scroll", makeButtons);*/
-
-
-
-/*
-* Trying to check for infinite scroll using MutationObserver, but still working out the kinks.
-* getElementById insists that "posts" doesn't exist, when it in fact does.
-* We can't use a JQuery selector here because it doesn't create a Node object, which the target must be.
-*/
-/*MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
-
-var observer = new MutationObserver(function(mutations, observer) {
-    // fired when a mutation occurs
-    makeButtons();
-    // ...
-});
-
-var target = getElementById( "posts" );
-// define what element should be observed by the observer
-// and what types of mutations trigger the callback
-observer.observe(target, {
-	childList: true,
-	attributes: false,
-	characterData: true, //???
-	subtree: false,
-	attributeOldValue: false,
-	characterDataOldValue: false
-});*/
-
-
-
-
 
 /* 
 * Ideally, the post would open in the current window as a modal on top of the dashboard, not losing your place.
