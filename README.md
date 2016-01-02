@@ -13,10 +13,12 @@ Can be used on the Dashboard, Likes folder, and Queue. This add-on creates a “
 
 ###Current bugs
 
-* Only displays on first set of posts loaded into the Dashboard/Queue/Like folder. Does not work for infinite-scroll pagination.
+* Does not check for existing reblog-from-source buttons and will generate duplicates.
 
 ###Future goals
 
+* Develop a better way to handle infinite-scroll pagination. (Currently handled, but not very gracefully.)
+* Come up with an icon
 * To open the ‘reblog from source’ panel on the Dashboard without losing your current place on the Dashboard. (Currently opens in another page and restarts the Dashboard, much like Tumblr’s reblog feature circa-2012.)
 
 Developed by [Alex Bettadapur](http://alex.bettadapur.com/) and [Sara Cagle](http://saracagle.com) ([Dodri0](http://dodri0.tumblr.com) at [Tumblr.com](http://tumblr.com))
