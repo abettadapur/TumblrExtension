@@ -9,9 +9,10 @@ body{
 }
 
 .reblog-from-source{
-	background-image: url('http://www.serebii.net/itemdex/sprites/pokeball.png');
-	width: 20px;
-	height: 20px;
+	background-image: url('/images/reblogsrc.png');
+	width: 23px;
+	height: 25px;
+
 }
 
 /*
